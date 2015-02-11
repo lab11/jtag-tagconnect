@@ -198,9 +198,8 @@ TAG-CONN</text>
 <wire x1="0" y1="15.24" x2="-1.27" y2="16.51" width="0" layer="254" curve="90"/>
 <text x="23.2156" y="3.8862" size="1.27" layer="21" font="vector" ratio="12" align="top-center">RESET</text>
 <text x="16.51" y="11.43" size="1.27" layer="21" font="vector" ratio="12" align="center-left">3V3</text>
-<text x="16.51" y="8.89" size="1.27" layer="21" font="vector" ratio="12" align="center-left">VREF</text>
-<text x="13.97" y="14.8844" size="1.27" layer="21" font="vector" ratio="12" rot="R180" align="top-center">Board
-Power</text>
+<text x="16.51" y="8.89" size="1.27" layer="21" font="vector" ratio="12" align="center-left">Device</text>
+<text x="13.97" y="14.8844" size="1.27" layer="21" font="vector" ratio="12" rot="R180" align="top-center">VREF</text>
 <text x="21.0566" y="33.6296" size="1.016" layer="21" font="vector" ratio="12" align="center">B</text>
 <wire x1="20.193" y1="32.6644" x2="21.717" y2="32.6644" width="0.2032" layer="21"/>
 <wire x1="21.717" y1="32.6644" x2="21.717" y2="34.5948" width="0.2032" layer="21"/>
