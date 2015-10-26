@@ -144,7 +144,7 @@
 <wire x1="25.4" y1="33.02" x2="0" y2="33.02" width="0" layer="20"/>
 <text x="24.7396" y="16.3576" size="0.889" layer="21" font="vector" ratio="12" align="bottom-right">JTAG-TC</text>
 <text x="24.7396" y="4.1402" size="0.889" layer="21" font="vector" ratio="12" rot="R90" align="bottom-right">NK,BC</text>
-<text x="10.1854" y="12.3952" size="0.762" layer="21" font="vector" ratio="12" rot="R90" align="bottom-right">2015/10/24</text>
+<text x="10.1854" y="12.3952" size="0.762" layer="21" font="vector" ratio="12" rot="R90" align="bottom-right">2015/10/26</text>
 <text x="15.2908" y="20.3962" size="1.016" layer="21" ratio="12" rot="R90" align="top-center">PWR</text>
 <text x="18.288" y="4.064" size="1.016" layer="21" font="vector" ratio="12" rot="R180" align="top-center">RESET</text>
 <text x="14.986" y="10.414" size="1.016" layer="21" font="vector" ratio="14" align="center-left">3V3</text>
@@ -1567,7 +1567,7 @@ chip</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="sunstone-2lyr_v1.0.0.3">
+<designrules name="sunstone-2lyr_v1.0.0.3 *">
 <description language="en">&lt;b&gt;EAGLE Design Rules for *2* Layer Designs (DS)&lt;/b&gt;
 &lt;p&gt;
 This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requirements for our double sided products. For questions, comments, suggestions, please contact Sunstone Customer Support: &lt;p&gt;&lt;b&gt;Email:&lt;/b&gt;  mailto:support@sunstone.com&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 800-228-8198.&lt;p&gt; v1.1Mod10/16/07~Layers-core reversal.Distance C/D.Restring%.Supply G%.&lt;p&gt; v1.2 Mod12/06/07~Distance C/D to 20mils.&lt;p&gt;v1.3Mod12/12/07~Supply/Annulus Value to 12.5mils&lt;p&gt;1/15/08 SSC-EAGLE-2Lyr_v1.0.0.3~For Release&lt;p&gt;10/3/08 Description Edit.&lt;p&gt;
@@ -1627,7 +1627,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="50mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -1786,17 +1786,17 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 </element>
 <element name="S1" library="switches" package="EVQP2" value="EVQP2" x="18.288" y="2.032" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="P11084SCT-ND" x="18.288" y="2.032" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.4026" y="2.0066" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="18.8786" y="2.2606" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="21.59" y="5.188" size="1.27" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="S2" library="switches" package="TE_SSA12/SPDT" value="TE_SSA12/SPDT" x="12.7" y="8.89" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="450-1602-ND" x="12.7" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.0904" y="7.874" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="14.3764" y="7.62" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="9.525" y="8.89" size="1.016" layer="27" font="vector" ratio="12" rot="R270" align="bottom-center"/>
 </element>
 <element name="S3" library="switches" package="TE_SSA12/SPDT" value="TE_SSA12/SPDT" x="23.368" y="8.89" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="450-1602-ND" x="23.368" y="8.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.86" y="7.874" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="25.019" y="7.62" size="1.016" layer="25" font="vector" ratio="12" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="20.193" y="8.89" size="1.016" layer="27" font="vector" ratio="12" rot="R270" align="bottom-center"/>
 </element>
 </elements>
@@ -1884,6 +1884,10 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <via x="19.812" y="30.734" extent="1-16" drill="0.635"/>
 <via x="24.13" y="31.4706" extent="1-16" drill="0.635"/>
 <via x="2.286" y="30.988" extent="1-16" drill="0.635"/>
+<via x="11.938" y="17.018" extent="1-16" drill="0.635"/>
+<via x="20.066" y="12.065" extent="1-16" drill="0.635"/>
+<via x="19.304" y="6.477" extent="1-16" drill="0.635"/>
+<via x="22.606" y="1.905" extent="1-16" drill="0.635"/>
 </signal>
 <signal name="NRESET">
 <contactref element="J1" pad="15"/>
