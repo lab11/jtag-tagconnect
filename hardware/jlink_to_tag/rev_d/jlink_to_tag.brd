@@ -144,7 +144,7 @@
 <wire x1="0" y1="0" x2="64.008" y2="0" width="0" layer="20"/>
 <wire x1="64.008" y1="0" x2="64.008" y2="76.2" width="0" layer="20"/>
 <wire x1="64.008" y1="76.2" x2="0" y2="76.2" width="0" layer="20"/>
-<text x="42.926" y="39.116" size="1.016" layer="21" font="vector" ratio="12" align="top-left">OCTOTAG</text>
+<text x="42.926" y="39.37" size="1.016" layer="21" font="vector" ratio="12" align="top-left">OCTOPROG</text>
 <text x="41.91" y="54.102" size="0.889" layer="21" font="vector" ratio="12" rot="R180" align="bottom-right">Brad Campbell</text>
 <text x="41.91" y="55.372" size="0.762" layer="21" font="vector" ratio="12" rot="R180" align="bottom-right">2016/11/01</text>
 <text x="11.176" y="70.866" size="1.016" layer="21" ratio="12" align="top-center">POWER</text>
