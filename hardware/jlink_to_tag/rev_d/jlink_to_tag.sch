@@ -3806,13 +3806,13 @@ To use, set global attributes TITLE, AUTHOR and REV in your schematic.</descript
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
+<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1k"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="S13" library="switches" deviceset="SN74AHC4066" device="-RGY"/>
@@ -3844,14 +3844,14 @@ To use, set global attributes TITLE, AUTHOR and REV in your schematic.</descript
 <part name="D7" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="D8" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="D9" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
-<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
@@ -3859,13 +3859,13 @@ To use, set global attributes TITLE, AUTHOR and REV in your schematic.</descript
 <part name="SUPPLY9" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="10nF">
+<part name="C1" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="10nF">
 <attribute name="DIGIKEY" value="490-1512-1-ND"/>
 </part>
-<part name="C5" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="4.7uF">
+<part name="C2" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="4.7uF">
 <attribute name="DIGIKEY" value="490-3297-1-ND"/>
 </part>
-<part name="C6" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="4.7uF">
+<part name="C3" library="passives" deviceset="CAPACITOR" device="0603_CAP" value="4.7uF">
 <attribute name="DIGIKEY" value="490-3297-1-ND"/>
 </part>
 <part name="S21" library="switches" deviceset="STS121PC04" device=""/>
@@ -3924,13 +3924,13 @@ uses the SWDIO line for !RESET.</text>
 <instance part="SUPPLY9" gate="1" x="213.36" y="68.58"/>
 <instance part="SUPPLY10" gate="1" x="203.2" y="68.58"/>
 <instance part="SUPPLY11" gate="1" x="170.18" y="68.58"/>
-<instance part="C4" gate="G$1" x="203.2" y="78.74">
+<instance part="C1" gate="G$1" x="203.2" y="78.74">
 <attribute name="DIGIKEY" x="203.2" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C5" gate="G$1" x="170.18" y="78.74">
+<instance part="C2" gate="G$1" x="170.18" y="78.74">
 <attribute name="DIGIKEY" x="170.18" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="213.36" y="78.74">
+<instance part="C3" gate="G$1" x="213.36" y="78.74">
 <attribute name="DIGIKEY" x="213.36" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="S21" gate="G$1" x="33.02" y="81.28"/>
@@ -4049,7 +4049,7 @@ uses the SWDIO line for !RESET.</text>
 <junction x="170.18" y="83.82"/>
 <wire x1="170.18" y1="88.9" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <label x="167.64" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -4153,17 +4153,17 @@ uses the SWDIO line for !RESET.</text>
 <segment>
 <pinref part="SUPPLY11" gate="1" pin="GND"/>
 <wire x1="170.18" y1="73.66" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="1" pin="GND"/>
 <wire x1="213.36" y1="71.12" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="1" pin="GND"/>
 <wire x1="203.2" y1="73.66" x2="203.2" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -4211,7 +4211,7 @@ uses the SWDIO line for !RESET.</text>
 <wire x1="213.36" y1="81.28" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <junction x="213.36" y="88.9"/>
 <pinref part="U2" gate="G$1" pin="OUT"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="S21" gate="G$1" pin="1"/>
@@ -4482,7 +4482,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="U2" gate="G$1" pin="BP"/>
 <wire x1="200.66" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="83.82" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -4505,31 +4505,31 @@ uses the SWDIO line for !RESET.</text>
 <instance part="S20" gate="G$1" x="71.12" y="81.28"/>
 <instance part="GND8" gate="1" x="60.96" y="76.2"/>
 <instance part="S19" gate="G$1" x="127" y="134.62"/>
-<instance part="R2" gate="G$1" x="134.62" y="119.38" smashed="yes" rot="R270">
+<instance part="R10" gate="G$1" x="134.62" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="134.3914" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="132.588" y="116.586" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R3" gate="G$1" x="137.16" y="119.38" smashed="yes" rot="R270">
+<instance part="R11" gate="G$1" x="137.16" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="136.9314" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.128" y="116.586" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="139.7" y="119.38" smashed="yes" rot="R270">
+<instance part="R12" gate="G$1" x="139.7" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="139.4714" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="137.668" y="116.586" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R5" gate="G$1" x="142.24" y="119.38" smashed="yes" rot="R270">
+<instance part="R13" gate="G$1" x="142.24" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="142.0114" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="140.208" y="116.586" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R6" gate="G$1" x="144.78" y="119.38" smashed="yes" rot="R270">
+<instance part="R14" gate="G$1" x="144.78" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="144.5514" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="142.748" y="116.586" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R7" gate="G$1" x="147.32" y="119.38" smashed="yes" rot="R270">
+<instance part="R15" gate="G$1" x="147.32" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="147.0914" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="145.288" y="116.586" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R8" gate="G$1" x="149.86" y="119.38" smashed="yes" rot="R270">
+<instance part="R16" gate="G$1" x="149.86" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="149.6314" y="121.92" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="147.828" y="116.586" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -4558,35 +4558,35 @@ uses the SWDIO line for !RESET.</text>
 <instance part="D9" gate="G$1" x="195.58" y="121.92" smashed="yes">
 <attribute name="NAME" x="194.056" y="122.428" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="R9" gate="G$1" x="160.02" y="109.22" smashed="yes" rot="R270">
+<instance part="R2" gate="G$1" x="160.02" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="156.718" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="156.718" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R10" gate="G$1" x="165.1" y="109.22" smashed="yes" rot="R270">
+<instance part="R3" gate="G$1" x="165.1" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="161.798" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="161.798" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R11" gate="G$1" x="170.18" y="109.22" smashed="yes" rot="R270">
+<instance part="R4" gate="G$1" x="170.18" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="166.878" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="166.878" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R12" gate="G$1" x="175.26" y="109.22" smashed="yes" rot="R270">
+<instance part="R5" gate="G$1" x="175.26" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="171.958" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="171.958" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R13" gate="G$1" x="180.34" y="109.22" smashed="yes" rot="R270">
+<instance part="R6" gate="G$1" x="180.34" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="177.038" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="177.038" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R14" gate="G$1" x="185.42" y="109.22" smashed="yes" rot="R270">
+<instance part="R7" gate="G$1" x="185.42" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="182.118" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="182.118" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R15" gate="G$1" x="190.5" y="109.22" smashed="yes" rot="R270">
+<instance part="R8" gate="G$1" x="190.5" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="187.198" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="187.198" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R16" gate="G$1" x="195.58" y="109.22" smashed="yes" rot="R270">
+<instance part="R9" gate="G$1" x="195.58" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="192.278" y="107.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="192.278" y="113.03" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -4655,9 +4655,9 @@ uses the SWDIO line for !RESET.</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="114.3" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="111.76" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="111.76" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="111.76" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
@@ -4665,31 +4665,31 @@ uses the SWDIO line for !RESET.</text>
 <wire x1="144.78" y1="111.76" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="111.76" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="114.3" x2="147.32" y2="111.76" width="0.1524" layer="91"/>
 <junction x="147.32" y="111.76"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="114.3" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
 <junction x="144.78" y="111.76"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="114.3" x2="142.24" y2="111.76" width="0.1524" layer="91"/>
 <junction x="142.24" y="111.76"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="139.7" y1="114.3" x2="139.7" y2="111.76" width="0.1524" layer="91"/>
 <junction x="139.7" y="111.76"/>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="114.3" x2="137.16" y2="111.76" width="0.1524" layer="91"/>
 <junction x="137.16" y="111.76"/>
 <wire x1="142.24" y1="111.76" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="104.14" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="101.6" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="101.6" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="101.6" x2="170.18" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="101.6" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
@@ -4698,19 +4698,19 @@ uses the SWDIO line for !RESET.</text>
 <wire x1="190.5" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="104.14" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
 <junction x="165.1" y="101.6"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="101.6" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
 <junction x="170.18" y="101.6"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="101.6" x2="175.26" y2="104.14" width="0.1524" layer="91"/>
 <junction x="175.26" y="101.6"/>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="101.6" x2="180.34" y2="104.14" width="0.1524" layer="91"/>
 <junction x="180.34" y="101.6"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="101.6" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 <junction x="185.42" y="101.6"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="101.6" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
 <junction x="190.5" y="101.6"/>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -4774,7 +4774,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="S19" gate="G$1" pin="A"/>
 <wire x1="132.08" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
 <label x="213.36" y="142.24" size="1.27" layer="95" xref="yes"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="142.24" x2="165.1" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="124.46" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
@@ -4794,7 +4794,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="S19" gate="G$1" pin="B"/>
 <wire x1="132.08" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
 <label x="213.36" y="139.7" size="1.27" layer="95" xref="yes"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="139.7" x2="170.18" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="139.7" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
@@ -4814,7 +4814,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="S19" gate="G$1" pin="C"/>
 <wire x1="132.08" y1="137.16" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
 <label x="213.36" y="137.16" size="1.27" layer="95" xref="yes"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="137.16" x2="175.26" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="124.46" x2="139.7" y2="137.16" width="0.1524" layer="91"/>
@@ -4834,7 +4834,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="S19" gate="G$1" pin="D"/>
 <wire x1="213.36" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
 <label x="213.36" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="134.62" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="134.62" x2="142.24" y2="124.46" width="0.1524" layer="91"/>
@@ -4854,7 +4854,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="S19" gate="G$1" pin="E"/>
 <wire x1="213.36" y1="132.08" x2="185.42" y2="132.08" width="0.1524" layer="91"/>
 <label x="213.36" y="132.08" size="1.27" layer="95" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="132.08" x2="132.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="124.46" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
@@ -4874,7 +4874,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="S19" gate="G$1" pin="F"/>
 <wire x1="213.36" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <label x="213.36" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="129.54" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="129.54" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
@@ -4894,7 +4894,7 @@ uses the SWDIO line for !RESET.</text>
 <pinref part="S19" gate="G$1" pin="G"/>
 <wire x1="213.36" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <label x="213.36" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="127" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
@@ -4912,20 +4912,20 @@ uses the SWDIO line for !RESET.</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="116.84" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="116.84" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="170.18" y1="114.3" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -4933,20 +4933,20 @@ uses the SWDIO line for !RESET.</text>
 <net name="N$7" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="116.84" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="D6" gate="G$1" pin="C"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="116.84" x2="180.34" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="185.42" y1="114.3" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -4954,13 +4954,13 @@ uses the SWDIO line for !RESET.</text>
 <net name="N$10" class="0">
 <segment>
 <pinref part="D8" gate="G$1" pin="C"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="116.84" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="195.58" y1="114.3" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
 </segment>
